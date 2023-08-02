@@ -28,7 +28,7 @@
 
     .orignal-painting .section-heading::before,
     .orignal-painting .section-heading::after {
-        width: 40px;
+        width: 20px;
         margin: 0 10px;
     }
 }
