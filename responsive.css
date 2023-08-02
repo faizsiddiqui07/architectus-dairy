@@ -26,8 +26,8 @@
         background-color: rgba(123, 122, 122, 0.85);
     }
 
-    .orignal-painting .section-heading::before,
-    .orignal-painting .section-heading::after {
+     .section-heading::before,
+     .section-heading::after {
         width: 20px;
         margin: 0 10px;
     }
