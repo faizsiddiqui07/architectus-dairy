@@ -92,6 +92,7 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateY(-1%);
 }
 .header-banner .navbar{
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
