@@ -103,6 +103,8 @@ h1,h2,h3,h4,h5,h6,p{
     right: 0;
     z-index: 9999;
     padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 .navbar .navbar-toggler{
     box-shadow: none;
@@ -118,14 +120,7 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar .navbar-nav .nav-item a.active{
     color: var(--secondry-color);
 }
-.header-scrolled {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    background-color: rgba(255, 255, 255, 0.85);
-}
-.header-scrolled .navbar {
-    background-color: var(--secondry-color);
-}
-.header-scrolled .navbar-nav .nav-item a{
+.navbar .navbar-nav .nav-item a{
     color: black;
 }
 /* orignal painting start */

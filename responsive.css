@@ -27,7 +27,7 @@
 
 @media(max-width:800px) {
     .navbar .navbar-brand img {
-        width: 23 0px;
+        width: 220px;
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
@@ -54,5 +54,6 @@
     @media(max-width:400px) {
         .footer p {
             font-size: 14px;
+            text-align: center;
         }
     }

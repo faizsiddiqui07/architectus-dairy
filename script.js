@@ -10,16 +10,6 @@ var swiper = new Swiper(".mySwiper", {
         },
 });
 
-// Header Scroll
-let nav = document.querySelector(".navbar");
-window.onscroll = function(){
-    if (document.documentElement.scrollTop > 50) {
-        nav.classList.add("header-scrolled");
-    }else{
-        nav.classList.remove("header-scrolled");
-    }
-}
-
 var swiper = new Swiper(".painting-slider", {
     slidesPerView: 5,
     spaceBetween: 30,
