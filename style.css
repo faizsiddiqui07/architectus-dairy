@@ -120,12 +120,14 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .header-scrolled {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    background-color: rgba(123, 122, 122, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 .header-scrolled .navbar {
     background-color: var(--secondry-color);
 }
-
+.header-scrolled .navbar-nav .nav-item a{
+    color: black;
+}
 /* orignal painting start */
 .orignal-painting{
     width: 100%;
