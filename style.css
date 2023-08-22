@@ -282,6 +282,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 22px;
     color: var(--primary-text);
 }
+.footer-social-network li:first-child{
+    margin-left: -17px;
+}
 .footer-social-network li a:hover{
     transition: all 0.1s ease-in-out;
     color: var(--secondry-color);
