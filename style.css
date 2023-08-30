@@ -20,6 +20,9 @@ body,html{
     font-family: var(--primary-font);
     scroll-behavior: smooth;
 }
+body.active{
+    overflow-y: hidden;
+}
 a,
 a:active,
 a:hover,
@@ -112,6 +115,8 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar .navbar-nav .nav-item{
     margin: 20px 12px;
     font-size: 18px;
+    width: 100%;
+    text-align: center;
 }
 .navbar .navbar-nav .nav-item a:hover,
 .navbar .navbar-nav .nav-item a.active{
@@ -304,4 +309,16 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .footer a{
     color: var(--secondry-color);
+}
+.menu-btn{
+    display: block;
+}
+.menu-btn.active{
+    display: none;
+}
+.menu-btn2{
+    display: none;
+}
+.menu-btn2.active{
+    display: block;
 }

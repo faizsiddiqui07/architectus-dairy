@@ -68,3 +68,22 @@ var swiper = new Swiper(".artist-slider", {
 }
 }
 });
+
+
+const menubtn = document.querySelector(".menu-btn"),
+menubtn2 = document.querySelector(".menu-btn2"),
+collapse = document.querySelector(".collapse"),
+body = document.querySelector("body");
+
+menubtn.addEventListener("click",()=>{
+    menubtn.classList.add("active");
+    menubtn2.classList.add("active");
+    collapse.classList.add("show")
+    body.classList.add("active")
+})
+menubtn2.addEventListener("click",()=>{
+    menubtn.classList.remove("active");
+    menubtn2.classList.remove("active");
+    collapse.classList.remove("show")
+    body.classList.remove("active")
+})
