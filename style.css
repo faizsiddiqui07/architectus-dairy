@@ -147,6 +147,7 @@ h1,h2,h3,h4,h5,h6,p{
     height: 250px;
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 .orignal-painting .gallery-item img{
     width: 100%;
@@ -322,3 +323,20 @@ h1,h2,h3,h4,h5,h6,p{
 .menu-btn2.active{
     display: block;
 }
+.printed-painting{
+    width: 100%;
+}
+.printed-painting .gallery-item{
+    /* width: 70%; */
+    overflow: hidden;
+    border-radius: 5px;
+}
+.printed-painting .gallery-item img{
+    transition: all 0.4s ease-in 0s;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.printed-painting .gallery-item:hover img{
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
